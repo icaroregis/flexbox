@@ -1,6 +1,13 @@
+/************ Para não gerar scroll nem horizontal e nem vertical ***************/ 
+html,
+body {
+  margin: 0; 
+}
+
 .containerFather {
   width: 100%;
-  height: 100vh; 
+  height: 100vh;  
+  box-sizing: border-box;    
   display: flex;
   justify-content: center;
   align-items: center; 
